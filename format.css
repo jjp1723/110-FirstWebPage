@@ -1,0 +1,22 @@
+body {
+	margin:2em;
+	padding:1em;
+	color:black;
+	width:90%;
+	}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-size:4em;
+background-color:red;
+color:white;
+border-radius:1em;
+padding:.5em;
+text-align:center;
+}
+
+#pic {border:1em groove blue;float:right;position:relative:top:2em;}
+
+p, a, ul{
+	font-size:30px;
+	}

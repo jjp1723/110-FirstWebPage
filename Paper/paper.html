@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--This is the course page for John Pionzio for 110 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Paper</title>
+	<link  rel="stylesheet" href="paper.css" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+
+			$('a.foo').click(function(e){
+
+			e.preventDefault();
+
+				$("#dynamic").load($(this).attr('href'));
+	
+			});
+
+		});
+	</script>
+	
+</head>
+<body>
+<div id="main">King Kong vs Donkey Kong Lawsuit</div>
+<div id="inl">
+<ul>
+<li><a class="foo" href="introduction.html">Introduction</a></li>
+<li><a class="foo" href="courtcase.html">Court Case</a></li>
+<li><a class="foo" href="aftermath.html">Aftermath</a></li>
+<li><a class="foo" href="conclusion.html">Conclusion</a></li>
+
+<li><a class="foo" href="workscited.html">Works Cited</a></li>
+
+</ul>
+<div id="footer">&copy;John Pionzio 2019</div>
+<div id="dynamic">Hello</div>
+
+</div>
+
+</body>
+</html>
